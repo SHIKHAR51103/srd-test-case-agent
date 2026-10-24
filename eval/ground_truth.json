@@ -1,0 +1,43 @@
+{
+  "login_module.txt": [
+    ["log in", "login"],
+    ["valid email", "email format"],
+    ["5 consecutive", "locked"],
+    ["8 and 64", "uppercase"],
+    ["reset"],
+    ["30 minutes", "expire"],
+    ["20 minutes", "inactivity"],
+    ["remember me"],
+    ["2 seconds", "response time"],
+    ["plain text"]
+  ],
+  "shopping_cart.txt": [
+    ["add a product", "add product", "add to cart", "add item"],
+    ["between 1 and 10", "quantity"],
+    ["grand total", "line total"],
+    ["remove"],
+    ["out of stock"],
+    ["coupon"],
+    ["free shipping", "2000"],
+    ["pin code", "delivery address"],
+    ["cash on delivery", "upi"],
+    ["confirmation email"],
+    ["payment fails", "payment failure", "failed payment"],
+    ["3 seconds", "load"],
+    ["pci"]
+  ],
+  "wallet_transfer.txt": [
+    ["add money", "top-up", "top up"],
+    ["50000", "minimum"],
+    ["10 seconds", "balance"],
+    ["mobile number"],
+    ["exceeds", "insufficient"],
+    ["daily", "limit"],
+    ["pin", "blocked"],
+    ["12 months", "history"],
+    ["sms"],
+    ["refund"],
+    ["tls"],
+    ["1000 concurrent", "concurrent"]
+  ]
+}

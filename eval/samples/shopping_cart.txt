@@ -1,0 +1,21 @@
+SRD: Online Shopping Cart and Checkout v1.0
+
+1. Cart
+1.1 A customer shall be able to add a product to the cart; the quantity must be between 1 and 10 per product.
+1.2 The cart shall display the unit price, quantity, line total and grand total, updated immediately when quantity changes.
+1.3 A customer shall be able to remove an item from the cart.
+1.4 Products that are out of stock shall not be addable to the cart.
+
+2. Discounts
+2.1 The system shall accept one coupon code per order; invalid or expired coupons shall show an error message.
+2.2 Orders above 2000 INR shall receive free shipping.
+
+3. Checkout
+3.1 The customer shall provide a delivery address with a 6-digit PIN code before payment.
+3.2 The system shall support UPI, credit/debit card and cash on delivery; cash on delivery is not available for orders above 10000 INR.
+3.3 After successful payment the system shall send an order confirmation email within 1 minute.
+3.4 If payment fails the order shall not be created and the cart contents shall be preserved.
+
+4. Non-functional
+4.1 The checkout page shall load within 3 seconds on a 4G connection.
+4.2 Card details shall be processed through a PCI-DSS compliant gateway and never stored by the application.

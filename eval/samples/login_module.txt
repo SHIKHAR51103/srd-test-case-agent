@@ -1,0 +1,19 @@
+SRD: User Login Module v1.0
+
+1. Login
+1.1 The system shall allow a registered user to log in with an email address and a password.
+1.2 The email field must be a valid email format and the password field must not be empty.
+1.3 After 5 consecutive failed login attempts the account shall be locked for 15 minutes.
+
+2. Password Rules
+2.1 Passwords shall be between 8 and 64 characters and contain at least one uppercase letter, one digit and one special character.
+2.2 The system shall allow a user to reset a forgotten password through a time-limited link sent to the registered email.
+2.3 The password reset link shall expire after 30 minutes and can be used only once.
+
+3. Session
+3.1 A user session shall expire automatically after 20 minutes of inactivity.
+3.2 The system shall provide a "Remember me" option that keeps the user logged in for 7 days.
+
+4. Non-functional
+4.1 The login response time shall be under 2 seconds for 95% of requests.
+4.2 Passwords shall never be stored or logged in plain text.

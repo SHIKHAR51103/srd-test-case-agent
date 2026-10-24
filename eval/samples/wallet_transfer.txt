@@ -1,0 +1,20 @@
+SRD: Digital Wallet - Money Transfer v1.0
+
+1. Add money
+1.1 A verified user shall be able to add money to the wallet from a linked bank account; the minimum amount is 100 INR and the maximum is 50000 INR per transaction.
+1.2 Wallet balance shall be updated within 10 seconds of a successful top-up.
+
+2. Transfer
+2.1 A user shall be able to transfer money to another wallet using the receiver's registered mobile number.
+2.2 A transfer shall be rejected if the amount exceeds the available wallet balance.
+2.3 The daily transfer limit shall be 100000 INR for fully verified users and 10000 INR for users with minimum KYC.
+2.4 The user shall confirm every transfer with a 6-digit transaction PIN; after 3 wrong PIN entries transfers shall be blocked for 24 hours.
+
+3. History and notifications
+3.1 The user shall be able to view the last 12 months of transactions and filter them by date and type.
+3.2 Both sender and receiver shall receive an SMS notification for every successful transfer.
+3.3 Failed transactions shall be refunded automatically within 24 hours.
+
+4. Non-functional
+4.1 All transactions shall be encrypted in transit using TLS 1.2 or higher.
+4.2 The system shall support 1000 concurrent transfers without degradation.
